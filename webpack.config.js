@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { resolve } from 'path';
+/* import { resolve } from 'path'; */
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 export const mode = 'development';
 export const entry = { bundle: resolve(__dirname, 'src/index.js') };
