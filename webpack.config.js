@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* import { resolve } from 'path'; */
-import HtmlWebpackPlugin from 'html-webpack-plugin';
+/* import HtmlWebpackPlugin from 'html-webpack-plugin'; */
 export const mode = 'development';
 export const entry = { bundle: resolve(__dirname, 'src/index.js') };
 export const devtool = 'inline-source-map';
