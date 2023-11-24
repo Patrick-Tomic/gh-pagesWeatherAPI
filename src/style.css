@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #008000;
+  padding: 2vh;
+  justify-content: space-between;
+  display: flex;
+}
+header #sun {
+  position: absolute;
+  top: -7%;
+  left: 13%;
+}
+header #title:hover {
+  color: #FFD700;
+  cursor: pointer;
+}
+header #title {
+  color: white;
+  font-size: 35px;
+  top: -15%;
+}
+header .searchBar {
+  margin-top: 30px;
+}
+header #searchLabel {
+  color: white;
+  font-size: 24px;
+}
+header #search {
+  width: 20vw;
+  height: 2vh;
+}
+header #search:hover {
+  cursor: pointer;
+}
+header #enter {
+  border: none;
+  width: 5vw;
+  height: 3vh;
+  border-radius: 5px;
+  color: white;
+  background-color: #007FFF;
+}
+header #enter:hover {
+  background-color: #17B169;
+  cursor: pointer;
+}
+header #random:hover {
+  background-color: #17B169;
+  cursor: pointer;
+}
+header #random {
+  border: none;
+  width: 5vw;
+  height: 3vh;
+  border-radius: 5px;
+  color: white;
+  background-color: #007FFF;
+}
+header .sidebar {
+  background: #008000;
+  border: none;
+}
+
+#mid #cardButtons {
+  position: absolute;
+  top: 73%;
+  left: 47%;
+}
+#mid #cardButtons button {
+  margin-left: 3px;
+  background-color: #007FFF;
+  width: 1vw;
+  height: 2vh;
+  border-radius: 50%;
+  border: none;
+}
+#mid #cardButtons button:hover {
+  background-color: #6CB4EE;
+  cursor: pointer;
+}
+#mid #leftArrow:hover {
+  cursor: pointer;
+}
+#mid #rightArrow:hover {
+  cursor: pointer;
+}
+#mid #leftArrow {
+  top: 40%;
+  left: 20%;
+  background-color: beige;
+  position: absolute;
+  padding: 0;
+  border: none;
+}
+#mid #rightArrow {
+  top: 40%;
+  background-color: beige;
+  left: 70%;
+  position: absolute;
+  padding: 0;
+  border: none;
+}
+#mid #wrap {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 25px -4px rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#mid #wrap #content #divWrap {
+  width: 28vw;
+  transition: transform 1s ease-in;
+  transform: translateX(0vw);
+  display: flex;
+}
+#mid #wrap #content #divWrap #card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  min-width: 30vw;
+  align-items: center;
+  background-color: white;
+  border: solid 1px black;
+}
+#mid #wrap #content #divWrap #card #tempBtn:hover {
+  cursor: pointer;
+}
+#mid #wrap #content #divWrap #card #tempBtn {
+  width: 80px;
+  height: 34px;
+  margin-top: 15px;
+  border-radius: 20px;
+  margin-left: 3vw;
+}
+#mid #wrap #content #divWrap #card #tempBtn #cardbtn {
+  margin-right: 30px;
+  transition: transform 1s ease-in-out;
+}
+#mid #wrap #content #divWrap #card #windBtn:hover {
+  cursor: pointer;
+}
+#mid #wrap #content #divWrap #card #windBtn {
+  width: 80px;
+  height: 34px;
+  margin-top: 15px;
+  border-radius: 20px;
+  margin-left: 3vw;
+}
+#mid #wrap #content #divWrap #card #windBtn #cardbtn2 {
+  margin-right: 30px;
+  transition: transform 1s ease-in-out;
+}
+#mid #wrap #content #divWrap #card .active {
+  transform: translateX(2vw);
+}
+#mid #wrap #content #divWrap #card .label {
+  display: flex;
+}
+#mid #wrap #content #divWrap #card .label .temp {
+  margin-top: 12px;
+}
+#mid #wrap #content #divWrap #card .label p {
+  margin-left: 2vw;
+  font-size: 20px;
+  font-weight: bold;
+}
+#mid #wrap #content #divWrap #card .label label {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-right: 1vw;
+}/*# sourceMappingURL=style.css.map */

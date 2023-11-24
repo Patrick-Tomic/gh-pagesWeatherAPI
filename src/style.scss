@@ -1,0 +1,220 @@
+ 
+$width:350px;
+body{
+    margin: 0;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+     
+    
+}
+header{
+ 
+    background-color: #008000;   
+    padding: 2vh;
+    justify-content: space-between;
+    display: flex;
+    #sun{
+        position:absolute;
+        top: -7%;
+        left: 13%;
+    }
+    #title:hover{
+        color: #FFD700;
+        cursor: pointer;
+    }
+    #title{
+        
+        color: white;
+        font-size: 35px;
+        top: -15%;
+    }
+    .searchBar{
+        margin-top: 30px;
+    }
+    #searchLabel{
+        color: white;
+        font-size: 24px;
+    }
+    #search{
+        width: 20vw;
+        height: 2vh;
+         
+    }
+    #search:hover{
+        cursor: pointer;
+    }
+    #enter{
+        border: none;
+        width: 5vw;
+        height: 3vh;
+        border-radius: 5px;
+        color: white;
+        background-color: #007FFF;
+    }
+    #enter:hover{
+        background-color: #17B169;
+        cursor: pointer;
+    }
+    #random:hover{
+        background-color: #17B169;
+        cursor: pointer;
+    }
+    #random{
+        border: none;
+        width: 5vw;
+        height: 3vh;
+        border-radius: 5px;
+        color: white;
+        background-color: #007FFF;
+    }
+     .sidebar{
+        background: #008000;
+        border: none;
+     }
+}
+#mid{
+    
+       #cardButtons{
+        
+        position: absolute;
+        top: 73%;
+        left: 47%;
+        button{
+            margin-left: 3px;
+            background-color: #007FFF;
+            width: 1vw;
+            height: 2vh;
+            border-radius: 50%;
+            border: none;
+        }
+        button:hover{
+            background-color: #6CB4EE;
+            cursor: pointer;
+        }
+       }
+    #leftArrow:hover{
+        cursor: pointer;
+    }
+    #rightArrow:hover{
+        cursor: pointer;
+    }
+    #leftArrow{
+        top: 40%;
+        left: 20%;
+        background-color: beige;
+        position: absolute;
+        padding: 0;
+        border: none;
+      }
+      #rightArrow{
+          top: 40%;
+          background-color: beige;
+          left: 70%;
+          position: absolute;
+          padding: 0;
+          border: none;
+      }
+        
+      
+ 
+    #wrap{
+      
+        overflow: hidden;         
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: 0px 4px 25px -4px rgba(0,0,0,1);
+        //animation: ani 5s infinite ease-in-out;
+        border-radius: 5px;
+     
+      
+     border: 1px solid black;
+     
+     #content{
+      
+       
+         #divWrap{ 
+           width: 28vw;
+            transition: transform 1s ease-in;
+           transform: translateX(0vw);
+              
+            display: flex;
+           
+             #card{
+                 
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+                 min-width: 30vw;
+                align-items: center;
+                 background-color: white;
+                 border: solid 1px black; 
+                 #tempBtn:hover{ 
+                 cursor: pointer;
+                 }
+                 #tempBtn{
+                    width: 80px;
+                    height:34px;
+                    margin-top: 15px;
+                    border-radius:20px ;
+                    margin-left: 3vw;
+                    #cardbtn{
+                        margin-right: 30px;
+                        transition: transform 1s ease-in-out;
+                    }
+                 }
+                 #windBtn:hover{
+                    cursor: pointer;
+                 }
+                 #windBtn{
+                    width: 80px;
+                    height:34px;
+                    margin-top: 15px;
+                    border-radius:20px ;
+                    margin-left: 3vw;
+                    #cardbtn2{
+                        margin-right: 30px;
+                        transition: transform 1s ease-in-out;
+                 }
+                }
+                 .active{
+                  
+                    transform: translateX(2vw);
+                 }
+                 .label{
+                    .temp{
+                        margin-top: 12px;
+                         
+                    }
+                     p{
+                         margin-left: 2vw;
+                         font-size: 20px;
+                         font-weight: bold;
+                          
+                     }
+                     display: flex;
+                     label{
+                         font-size: 24px;
+                        margin-top: 15px;
+                        margin-right: 1vw;
+                         
+                     }
+                   
+
+                 }
+             }
+         }
+       
+     }
+    
+      
+      
+     
+ }
+ 
+}
+ 
+ 
